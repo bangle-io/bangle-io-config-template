@@ -14,6 +14,7 @@ const fileName = {
 export default defineConfig({
   base: "./",
   build: {
+    emptyOutDir: false,
     sourcemap: true,
     lib: {
       entry: path.resolve(__dirname, "src/index.ts"),
