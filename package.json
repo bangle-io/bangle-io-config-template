@@ -1,7 +1,6 @@
 {
   "name": "@bangle.io/config-template",
   "version": "0.0.1",
-  "access": "public",
   "type": "module",
   "publishConfig": {
     "access": "public"
