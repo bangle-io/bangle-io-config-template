@@ -1,17 +1,17 @@
 {
-  "name": "bangle-io-config-template",
+  "name": "@bangle.io/config-template",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "build": "vite build && tsc && mv dist/src dist/types"
   },
   "devDependencies": {
     "typescript": "^4.7.4",
     "vite": "^3.0.0"
   },
+  "types": "./dist/types/index.d.ts",
+  "module": "./dist/bangle-io-config-template.mjs",
   "exports": {
     ".": {
       "require": "./dist/bangle-io-config-template.cjs",

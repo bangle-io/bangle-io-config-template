@@ -22,6 +22,7 @@ const fileName = {
 export default defineConfig({
   base: "./",
   build: {
+    sourcemap: true,
     lib: {
       entry: path.resolve(__dirname, "src/index.ts"),
       name: getPackageNameCamelCase(),
