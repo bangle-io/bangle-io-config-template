@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "access": "public",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "vite build && tsc && mv dist/src dist/types"
   },
