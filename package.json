@@ -1,6 +1,7 @@
 {
   "name": "@bangle.io/config-template",
   "version": "0.0.1",
+  "access": "public",
   "type": "module",
   "scripts": {
     "build": "vite build && tsc && mv dist/src dist/types"
